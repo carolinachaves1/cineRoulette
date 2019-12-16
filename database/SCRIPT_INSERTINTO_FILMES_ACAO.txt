@@ -1,0 +1,5 @@
+insert into filme(titulo, dt_lancamento, diretor_cod_diretor, genero_cod_genero, sinopse) VALUES
+		('Indiana Jones: Os Caçadores da Arca Perdida', '1981-12-25', 1, 1, 'O arqueólogo Indiana Jones precisa encontrar a Arca da Aliança, uma relíquia bíblica que contém os dez mandamentos. Como o portador do artefato se torna invencível, os nazistas também vão fazer de tudo para adquirir esse precioso objeto.'),
+        ('007 - Operação Skyfall', '2012-10-26', 2, 1, 'Após uma missão mal sucedida de James Bond, a identidade de agentes secretos é revelada e o M16, atacado. Ajudado por um agente de campo, Bond deverá seguir a trilha de Silva, um homem que habita o passado de M e que tem contas a acertar.'),
+		('A Identidade Bourne', '2002-10-11', 3, 1, 'Um homem sem memória é resgatado do oceano por barco de pesca. Sobre si, ele só sabe que tem talento para matar e um chip implantado no quadril. Enquanto busca sua história, tenta escapar de pessoas que, inexplicavelmente, querem matá-lo.');
+;

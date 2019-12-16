@@ -1,0 +1,5 @@
+insert into filme(titulo, dt_lancamento, diretor_cod_diretor, genero_cod_genero, sinopse) VALUES
+		('A Bruxa', '2006-03-03', 9, 7, 'Em uma fazenda no século 17, uma histeria religiosa toma conta de uma família que acusa a filha mais velha pelo desaparecimento do seu irmão ainda bebê.'),
+        ('Hereditário', '2018-06-21', 10, 7, 'Após a morte da reclusa avó, a família Graham começa a desvendar algumas coisas. Mesmo após a partida da matriarca, ela permanece como se fosse uma sombra sobre a família, especialmente sobre a solitária neta adolescente, Charlie, por quem ela sempre manteve uma fascinação não usual. Com um crescente terror tomando conta da casa, a família explora lugares mais escuros para escapar do infeliz destino que herdaram.'),
+		('Corra!', '2017-05-18', 11, 7, 'Um jovem fotógrafo descobre um segredo sombrio quando conhece os pais aparentemente amigáveis da sua namorada.');
+;

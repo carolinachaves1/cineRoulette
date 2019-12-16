@@ -1,0 +1,5 @@
+insert into filme(titulo, dt_lancamento, diretor_cod_diretor, genero_cod_genero, sinopse) VALUES
+		('Django Livre', '2013-01-18', 12, 6, 'No sul dos Estados Unidos, anos antes da Guerra Civil, um ex-escravo Django faz uma aliança inesperada com o caçador de recompensas Schultz para caçar os criminosos mais procurados do país e resgatar sua esposa de um fazendeiro que força seus escravos a participarem de competições mortais.'),
+        ('Era uma Vez no Oeste', '1969-08-10', 13, 6, 'Em virtude das terras que possuía serem futuramente a rota da estrada de ferro, um pai e todos os filhos são brutalmente assassinados por um matador profissional. Entretanto, ninguém sabia que ele, viúvo há seis anos, tinha se casado com uma outra mulher, de Nova Orleans, que passa ser a dona do local e recebe a proteção de um hábil atirador, que tem contas a ajustar com o frio matador.'),
+		('Os Oito Odiados', '2011-02-10', 12, 6, 'Em busca de abrigo para se proteger de uma nevasca, dois caçadores de recompensas, um prisioneiro e um homem que alega ser xerife conhecem quatro estranhos.');
+;

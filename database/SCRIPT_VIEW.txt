@@ -1,0 +1,14 @@
+ALTER VIEW vw_cineroullet AS  select 
+	f.titulo as TITULO,
+    DATE_FORMAT(f.dt_lancamento, "%d/%m/%Y") as `DATA_LANCAMENTO`,
+    g.genero as GENERO,
+    f.sinopse AS SINOPSE,
+    d.nome AS DIRETOR,
+    c.imagem as CARTAZ
+from filme f
+inner join genero g
+on f.genero_cod_genero = g.cod_genero
+inner join diretor d
+on f.diretor_cod_diretor = d.cod_diretor
+inner join cartaz c
+on f.cod_filme = c.cartaz_cod_filme

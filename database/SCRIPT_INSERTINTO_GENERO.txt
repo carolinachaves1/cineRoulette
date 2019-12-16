@@ -1,0 +1,12 @@
+INSERT INTO GENERO(GENERO) VALUES
+		('Ação'),
+		('Aventura'),	
+		('Comédia'),
+		('Drama'),
+	('Fantasia'),
+	('Faroeste'),	
+('Suspense'),
+('Ficção Científica'),
+('Musical'),
+('Animação'),	
+('Documentário')

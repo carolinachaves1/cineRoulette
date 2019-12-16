@@ -1,0 +1,252 @@
+body{
+    background-color: #d3d3d3;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.tituloArea {
+    position: relative;
+    margin-left: 300px;
+    margin-top: 50px;
+    width: 600px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:98%;
+    height: 30px;
+    background-color: #ff485b;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+.area {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.roleta {
+    border: 10px solid #FFFFFF;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    overflow: hidden;
+/*    animation: roleta 5s linear infinite;*/
+}
+
+.seta {
+    position: absolute;
+    left: 48.5%;
+    border-bottom: 0px solid transparent;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 40px solid #3ECA51;
+    width: 0;
+    height: 0;
+    z-index: 1;
+}
+
+#box1{
+    position: absolute;
+    width: 0;
+     height: 0;
+     border-top: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid #FBB900;
+    border-left: 150px solid #FBB900;
+}
+#box2{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 150px solid #EC6500;
+    border-right: 150px solid #EC6500;
+    border-bottom: 150px solid transparent;
+    border-left: 150px solid transparent;
+
+}
+
+#box3{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 150px solid #D40073;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    border-left: 150px solid #D40073;
+    left: 50%;
+}
+
+#box4{
+    position: absolute;
+    width: 0;
+    border-top: 150px solid transparent;
+    border-right: 150px solid #0A367F;
+    border-bottom: 150px solid #0A367F;
+    border-left: 150px solid transparent;
+    left: 50%; 
+}
+
+#box5{
+    position: absolute;
+    width: 0;
+    border-top: 150px solid transparent;
+    border-right: 150px solid #0A367F;
+    border-bottom: 150px solid #0A367F;
+    border-left: 150px solid transparent;
+    left: 50%; 
+}
+
+#box6{
+    position: absolute;
+    width: 0;
+    border-top: 150px solid #5D2082;
+    border-right: 150px solid #5D2082;
+    border-bottom: 150px solid transparent;
+    border-left: 150px solid transparent;
+    top: 50%;
+    left: 50%; 
+}
+#box7{
+    position: absolute;
+    width: 0;
+    border-top: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid #961680;
+    border-left: 150px solid #961680;
+    top: 50%;
+    left: 50%; 
+}
+#box8{
+    position: absolute;
+    width: 0;
+    border-top: 150px solid transparent;
+    border-right: 150px solid #009DDC;
+    border-bottom: 150px solid #009DDC;
+    border-left: 150px solid transparent;
+    top: 50%;
+}
+#box9{
+    position: absolute;
+    width: 0;
+    border-top: 150px solid #D5E14D;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    border-left: 150px solid #D5E14D;
+    top: 50%;
+}
+
+.genero {
+    position: absolute;
+    z-index: 100;
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+}
+
+.genero1 {
+    top: 35%;
+    left: 8%;
+    transform: rotate(25deg);
+}
+
+.genero2 {
+    top: 15%;
+    left: 30%;
+    transform: rotate(55deg);
+}
+
+.genero3{
+    top: 15%;
+    left: 55%;
+    transform: rotate(115deg);
+}
+
+.genero4 {
+    top: 33%;
+    left: 76%;
+    transform: rotate(150deg);
+}
+
+.genero5 {
+    top: 60%;
+    left: 70%;
+    transform: rotate(210deg);
+}
+
+.genero6 {
+    top: 79%;
+    left: 53%;
+    transform: rotate(250deg);
+}
+
+.genero7 {
+    top: 79%;
+    left: 28%;
+    transform: rotate(290deg);
+}
+
+
+.genero8{
+    top: 60%;
+    left: 10%;
+    transform: rotate(-8deg);
+}
+
+
+@keyframes roleta {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.btnRoleta {
+    position: absolute;
+    color: #000000;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    top: 42%;
+    left: 42%;
+    font-size: 35px;
+    border-radius: 50%;
+    height: 100px;
+    width:100px;
+    text-align: center;
+}
+
+
+#btParar {
+      visibility: hidden;
+    }
+
+    
+#mensagem{
+    margin-top: 1200px;
+    background: #D40073;
+    margin-left: 70%;
+    color: #FBB900;
+    z-index: 200;
+}

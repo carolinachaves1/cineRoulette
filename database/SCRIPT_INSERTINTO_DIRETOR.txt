@@ -1,0 +1,21 @@
+INSERT INTO DIRETOR(NOME) VALUES 
+			
+		('Steven Spielberg'),
+		('Sam Mendes'),
+		('Doug Liman'),
+		('Alejandro González Iñárritu'),
+       		('Stephen Sommers')
+		('Keenen Ivory Wayans'),
+        ('André Pellenz'),
+        ('Todd Phillips'),
+('Robert Eggers'),
+        ('Ari Aster'),
+        ('Jordan Peele'),
+('Quentin Tarantino'),
+        ('Sergio Leone'),
+('Robert Stromberg'),
+        ('George Lucas'),
+        ('Peter Jackson'),
+('Stephen Chbosky'), 
+        ('Lenny Abrahamson'),
+        ('Alfonso Cuarón')
